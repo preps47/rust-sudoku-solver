@@ -1,5 +1,5 @@
 <h1>Rust Sudoku Solver</h1>
-<p>A simple and not so much efficient sudoku solver in rust.</p>
+<p>A simple and not so much efficient sudoku solver in rust. (at least it won't stack overflow)</p>
 <hr>
 <p>To use it just type as argument the sudoku formatted as an 81 digit number containing all the numbers of the sudoku from left to right and from up to buttom. Note that blank spaces must contain a 0 instead.</p>
 <br>
