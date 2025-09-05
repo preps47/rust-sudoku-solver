@@ -39,7 +39,7 @@ pub fn start_resolution(mut args: std::env::Args) -> Result<Sudoku, &'static str
             solve_sudoku(sudoku)
         },
         None => Err(
-            "Argument not found: try with: \n\t\tsudoku_solver [sudoku code]"
+            "Argument not found: try with: \n\tsudoku_solver [sudoku code]"
         )
     }
 }
